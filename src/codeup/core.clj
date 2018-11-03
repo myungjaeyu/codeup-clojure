@@ -79,5 +79,10 @@
                     (subs n 7)))
     n))
 
+(defn a1021 []
+  (let [n (read-line)]
+    (println (subs n 0 50))
+    n))
+
 (defn -main []
   (println "Hello, World!"))
