@@ -84,5 +84,10 @@
     (println (subs n 0 50))
     n))
 
+(defn a1023 []
+  (let [n (read-line)]
+    (println (apply str (subs n 0 1) "\n" (subs n 2)))
+    n))
+
 (defn -main []
   (println "Hello, World!"))
