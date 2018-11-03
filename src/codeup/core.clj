@@ -19,5 +19,8 @@
 (defn a1006 []
   (println "!@#$%^&*()"))
 
+(defn a1007 []
+  (println "\"C:\\Download\\hello.cpp\""))
+
 (defn -main []
   (println "Hello, World!"))
