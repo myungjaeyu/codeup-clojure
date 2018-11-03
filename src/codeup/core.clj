@@ -22,5 +22,10 @@
 (defn a1007 []
   (println "\"C:\\Download\\hello.cpp\""))
 
+(defn a1010 []
+  (let [n (read-line)]
+    (println (format "%d" (read-string n)))
+    n))
+
 (defn -main []
   (println "Hello, World!"))
