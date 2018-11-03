@@ -16,5 +16,8 @@
 (defn a1005 []
   (println "\"Hello World\""))
 
+(defn a1006 []
+  (println "!@#$%^&*()"))
+
 (defn -main []
   (println "Hello, World!"))
