@@ -13,5 +13,8 @@
 (defn a1004 []
   (println "'Hello'"))
 
+(defn a1005 []
+  (println "\"Hello World\""))
+
 (defn -main []
   (println "Hello, World!"))
