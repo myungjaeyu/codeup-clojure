@@ -54,5 +54,10 @@
     (println (format "%.2f" (read-string n)))
     n))
 
+(defn a1017 []
+  (let [n (read-line)]
+    (println n n n)
+    n))
+
 (defn -main []
   (println "Hello, World!"))
