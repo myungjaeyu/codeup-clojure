@@ -65,5 +65,12 @@
     (println n1 ":" n2)
     n1 n2))
 
+(defn a1019 []
+  (let [y (read-string (read-line))
+        m (read-string (read-line))
+        d (read-string (read-line))]
+    (println (format "%04d.%02d.%02d" y m d))
+    y m d))
+
 (defn -main []
   (println "Hello, World!"))
