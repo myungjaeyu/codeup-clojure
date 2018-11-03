@@ -72,5 +72,12 @@
     (println (format "%04d.%02d.%02d" y m d))
     y m d))
 
+(defn a1020 []
+  (let [n (read-line)]
+    (println (apply str 
+                    (subs n 0 6)
+                    (subs n 7)))
+    n))
+
 (defn -main []
   (println "Hello, World!"))
