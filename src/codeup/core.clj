@@ -89,5 +89,12 @@
     (println (apply str (subs n 0 1) "\n" (subs n 2)))
     n))
 
+(defn a1024 []
+  (let [n (read-line)]
+    (doall (map (fn [n]
+                  (println (format "'%s'" n)))
+                (to-array n)))
+    n))
+
 (defn -main []
   (println "Hello, World!"))
