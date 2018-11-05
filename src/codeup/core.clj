@@ -96,5 +96,17 @@
                 (to-array n)))
     n))
 
+(defn a1025 []
+  (let [n (read-line)
+        flag "0000"]
+    (doall (map-indexed (fn [i n]
+                          (println (apply str 
+                                          "["
+                                          n
+                                          (subs flag i)
+                                          "]")))
+                        (to-array n)))
+    n flag))
+
 (defn -main []
   (println "Hello, World!"))
