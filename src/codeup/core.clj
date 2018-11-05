@@ -128,5 +128,13 @@
     (if (= n 0) (println 1) (println 0))
     n))
 
+(defn a1054 []
+  (let [n1 (read-line)
+        n2 (read-line)]
+    (if (and (= n1 0) (= n2 0))
+      (println 1)
+      (println 0))
+    n1 n2))
+
 (defn -main []
   (println "Hello, World!"))
