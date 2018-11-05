@@ -108,5 +108,11 @@
                         (to-array n)))
     n flag))
 
+(defn a1038 []
+  (let [n1 (read-line)
+        n2 (read-line)]
+    (println (+ (read-string n1) (read-string n2)))
+    n1 n2))
+
 (defn -main []
   (println "Hello, World!"))
