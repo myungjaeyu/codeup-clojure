@@ -114,5 +114,14 @@
     (println (+ (read-string n1) (read-string n2)))
     n1 n2))
 
+(defn a1045 []
+  (let [n1 (read-string (read-line))
+        n2 (read-string (read-line))]
+    (println (+ n1 n2))
+    (println (- n1 n2))
+    (println (* n1 n2))
+    (println (/ n1 n2))
+    n1 n2))
+
 (defn -main []
   (println "Hello, World!"))
