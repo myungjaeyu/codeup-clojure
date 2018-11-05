@@ -123,5 +123,10 @@
     (println (/ n1 n2))
     n1 n2))
 
+(defn a1053 []
+  (let [n (read-string (read-line))]
+    (if (= n 0) (println 1) (println 0))
+    n))
+
 (defn -main []
   (println "Hello, World!"))
